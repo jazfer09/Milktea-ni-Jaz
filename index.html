@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milktea Ni Jaz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+<body>
+<header>
+    <div class="logo">
+        <img id="logoImg" src="Picsart_24-03-01_11-09-10-301__1_-removebg-preview.png" alt="Milk Tea Shop Logo">
+    </div>
+</header>
+    <div class="hero-content">
+        <h2>Welcome to Milktea Ni Jaz</h2>
+        <p>Discover a variety of delicious milk teas made with love and quality ingredients.</p>
+        <button id="watchVideoBtn" class="button">Click to Watch Video</button>
+
+        <div class="video-container">
+            <video id="video" controls style="display: none;">
+                <source src="EPIC MILK TEA B ROLL _ PROMOTIONAL VIDEO.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <main>
+            <div class="container owl-carousel">
+                <div class="product-card">
+                    <img src="matchaa-removebg-preview (1).png" alt="Product Image">
+                    <div class="card-content">
+                    <h3>Matcha</h3>
+                    <div class="stars" onclick="rateStar(this)">
+                        <span>&#9733;</span>
+                        <span>&#9734;</span>
+                        <span>&#9734;</span>
+                        <span>&#9734;</span>
+                        <span>&#9734;</span>
+                      </div>
+                    <p>Price: ₱45</p>
+                    <button class="button add-to-cart">Add to Cart</button>
+                    <button class="button buy-now">Buy Now</button>
+                </div>
+            </div>
+                <div class="product-card">
+                    <img src="red_velvet-removebg-preview.png" alt="Product Image">
+                    <div class="card-content">
+                    <h3>Red Velvet</h3>
+                    <div class="stars" onclick="rateStar(this)">
+                        <span>&#9733;</span>
+                        <span>&#9734;</span>
+                        <span>&#9734;</span>
+                        <span>&#9734;</span>
+                        <span>&#9734;</span>
+                      </div>
+                    <p>Price: ₱55</p>
+                    <button class="button add-to-cart">Add to Cart</button>
+                    <button class="button buy-now">Buy Now</button>
+                </div>
+            </div>
+                <div class="product-card">
+                    <img src="dark_choco-removebg-preview.png" alt="Product Image">
+                    <div class="card-content">
+                    <h3>Dark Choco</h3>
+                    <div class="stars" onclick="rateStar(this)">
+                        <span>&#9733;</span>
+                        <span>&#9734;</span>
+                        <span>&#9734;</span>
+                        <span>&#9734;</span>
+                        <span>&#9734;</span>
+                      </div>
+                    <p>Price: ₱55</p>
+                    <button class="button add-to-cart">Add to Cart</button>
+                    <button class="button buy-now">Buy Now</button>
+                </div>
+            </div>
+        </main>
+          
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>    
+    <script src="script.js"></script>
+</body>
+
+</html>
